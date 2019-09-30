@@ -11,6 +11,7 @@ def using_unshift(array, bouroughs)
 end
 
 def using_pop(array)
+<<<<<<< HEAD
   array.pop
 end
 
@@ -20,6 +21,20 @@ end
 
 def using_shift(array)
   array.shift
+=======
+  continents = ["Africa", "Asia", "Europe", "North America", "South America", "Oceania", "Antarctica"]
+  deleted_string = continents.pop
+end
+
+def pop_with_args(array)
+  dog_breeds = ["Great Dane", "Golden Retriever", "Chihuahua", "Shiba Inu"]
+  small_dogs = dog_breeds.pop(2)
+end
+
+def using_shift(array)
+  my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
+  im_so_over_this_city = my_favorite_cities.shift
+>>>>>>> c75796b6bc7ad919972e4df3097866130c6aea46
 end
 
 def shift_with_args(array)
@@ -50,7 +65,12 @@ def using_flatten(array)
 end
 
 def using_delete(array, string)
+<<<<<<< HEAD
   array.delete(string)
+=======
+  instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
+  instructors.delete("Steven")
+>>>>>>> c75796b6bc7ad919972e4df3097866130c6aea46
 end
 
 def using_delete_at(array, num)
